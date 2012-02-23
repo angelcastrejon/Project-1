@@ -2,6 +2,7 @@
 
 require 'sinatra'
 require 'redis'
+require 'redis_on_heroku'
 
 configure do
   REDIS = Redis.new
